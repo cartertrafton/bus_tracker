@@ -1,0 +1,49 @@
+
+Application Elements:
+
+- Map (Leaflet API)
+	- Buses
+	- Routes
+	- Map controls
+	
+- Graph
+	- Real time updated info
+	- Collapsible via button on the side
+
+-------------------------------------------------------------------
+
+Functions to build:
+
+- Track buses real-time
+- Graph update real-time
+- Collapse graph to side of page
+
+-------------------------------------------------------------------
+
+Graph:
+-Headers
+	- Segment
+		- S#### (V####)
+	- Start Time
+		- ####A
+	- End Time
+		- ####P
+	- Last Announce
+		- ####A
+	- Battery Level
+		- ^BatteryLife:##%
+	- Next Stop
+		- ####A-ID_NUMBER-STOP_NAME
+	- Total Stop
+		- ###
+	- Stop Announced
+		- ##
+	- Accuracy Percentage
+		- ##
+	- Device Time On/Off
+		- #/##/2018 ####A
+	- Battery Levels(%): On/Off
+		- ##%
+	-Segment Time: On/Off
+		- ####A
+	
