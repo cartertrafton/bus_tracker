@@ -1,27 +1,31 @@
 
-Application Elements:
+Application Features:
 
-- Map (Leaflet API)
-	- Buses
-	- Routes
-	- Map controls
+- Map (Leaflet API)							Technology Required: 
+	- Buses 								(React?)
+	- Routes  								(Leaflet?)
+	- Map controls							(Leaflet?)
 	
 - Graph
-	- Real time updated info
-	- Collapsible via button on the side
+	- Real time updated info				(JS web-scraping)
+	- Collapsible via button on the side	(CSS)
 
 -------------------------------------------------------------------
 
 Functions to build:
 
 - Track buses real-time
+	- Use information from the graph alongside Leaflet API to
+	mark and track the buses along their routes
 - Graph update real-time
-- Collapse graph to side of page
+	- Link graph values to web-scraping function
+- Collapse chart to side of page
+	- CSS Collapse
 
 -------------------------------------------------------------------
 
 Graph:
--Headers
+- Headers and table formats (#:number, #A:AM, #P:PM, #%:percentage) 
 	- Segment
 		- S#### (V####)
 	- Start Time
