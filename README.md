@@ -13,7 +13,7 @@ This program is built for tracking bus movements along their fixed-routes for th
 - [ ] Map controls (zoom , scroll, etc)
 
 
-## Meta
+### Meta
 Carter Trafton – cartertrafton@gmail.com
 
 [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)
