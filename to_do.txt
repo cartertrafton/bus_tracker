@@ -1,7 +1,7 @@
 
 Application Features:
 
-- Map (Leaflet API)							Technology Required: 
+- Map						Technology Required: 
 	- Bus tracking							(React?)
 	- Route Highlighting when selected		(Leaflet?)
 	- Map controls (zoom, etc)				(Leaflet?)
