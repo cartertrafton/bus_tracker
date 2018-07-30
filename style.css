@@ -2,16 +2,18 @@
 h1 {
 	margin: 0 0 0 0px;
 	font-family: Rubik, Helvetica, monospace;	
+	color: #56B750;
 	font-weight: 700;
 	font-size: 65px;
 	padding: 20px 0 0 0px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 th{
-	font-family: Rubik, Helvetica, monospace;
+	font-family: Helvetica, monospace;
 	border: 3px double black;
 }
 td {
-	font-family: Rubik, Helvetica, monospace;
+	font-family: monospace;
 	border: 1px solid black;
 	cursor: pointer;
 
@@ -20,7 +22,7 @@ body {
 	background-image: url('images/map_placeholder.jpg');
 }
 .collapsible {
-	padding: 0px 0px 0px 0px;
+	padding: 0 0 0 0px;
 	min-width: 400px;
 	width: 30%;
 }
@@ -32,7 +34,7 @@ body {
 	width: 105px;
 	border: 1px solid black;
 	padding: 5px 0 5px 10px;
-	background-color: rgb(255, 255, 255);
+	background-color: #56B750;
 
 }
 input#show_routes {
@@ -42,7 +44,7 @@ input#show_routes {
 .table {
 	max-width: 0;
 	overflow: hidden;
-	padding: 0 0 0 0px;
+	padding: 5px 0 0 0px;
 	transition: 0.2s;
 }
 
