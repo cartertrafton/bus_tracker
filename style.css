@@ -38,11 +38,10 @@ input#show_routes {
 
 }
 .table {
-	max-height: 0;
+	max-width: 0;
 	overflow: hidden;
 	padding: 0 0 0 0px;
-	width: 20%
-	max-width: 40%;
+	transition: 0.2s;
 }
 
 <!-- Toggle Collapse of Graph -->
@@ -50,5 +49,6 @@ input:checked ~ label {
 	background-color: black;
 }
 input:checked ~ .table {
-	max-height: 100%;
+	max-width: 100%;
+	transition: 0.1s;
 }
