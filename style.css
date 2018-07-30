@@ -1,8 +1,10 @@
 
 h1 {
+	margin: 0 0 0 0px;
 	font-family: Rubik, Helvetica, monospace;	
 	font-weight: 700;
 	font-size: 65px;
+	padding: 20px 0 0 0px;
 }
 th{
 	font-family: Rubik, Helvetica, monospace;
@@ -15,7 +17,7 @@ td {
 
 }
 body {
-	background-image: url('map_placeholder.jpg');
+	background-image: url('images/map_placeholder.jpg');
 }
 .collapsible {
 	padding: 0px 0px 0px 0px;
@@ -23,7 +25,7 @@ body {
 	width: 30%;
 }
 .collapsible label {
-	font-family: Helvetica;
+	font-family: Helvetica, monospace;
 	font-size: 20x;
 	display: block;
 	cursor: pointer;
