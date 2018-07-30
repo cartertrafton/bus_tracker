@@ -1,67 +1,19 @@
 <!DOCTYPE html>
-<!-- 
-	THIS IS THE SECOND VERSION OF THIS APPLICATION
--->
+<!-- THIS IS THE SECOND VERSION OF THIS APPLICATION-->
 <html>
-
 <head>
-	<style>	
-		h1 {
-			font-family: Rubik, Helvetica, monospace;	
-			font-weight: 700;
-			font-size: 65px;
-		}
-		th {
-			font-family: Rubik, Helvetica, monospace;
-		}
-		td {
-			font-family: Rubik, Helvetica, monospace;	
-
-		}
-		body {
-			background-image: url('map_placeholder.jpg');
-		}
-		.collapsible-graph {
-			background-color: rgb(255, 255, 255);
-			padding: 0px 0px 0px 0px;
-		}
-		.collapsible-graph label {
-			font-family: Helvetica;
-			font-size: 20x;
-			display: block;
-			cursor: pointer;
-			padding: 5px 0 5px 10px;
-		}
-		input#show_routes {
-			display: none;
-		}
-		.table {
-			max-height: 0;
-			overflow: hidden;
-			padding: 0 0 0 0px;
-		}
-		.show {
-			transform: rotate(90deg)
-		}
-		<!-- Toggle Collapse of Graph -->
-		input:checked ~ label {
-			background-color: black;
-		}
-		input:checked ~ .table {
-			max-height: 100%;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 	<h1>MRTA</br>Bus Tracker</h1> 
-	<div class="collapsible-graph">
-		
+	<div class="collapsible">
+
 		<input type="checkbox" id="show_routes">
-        <label for="show_routes" style="width:10%">Show Routes</label>
+        <label for="show_routes">Show Routes</label>
 		
 		<div class="table">
-			<table style="width:10%" align="left" bgcolor="#F4FF8C">
+			<table align="left" bgcolor="#F4FF8C">
 				<tr>
 					<th>Segment</th>
 					<th>Last Announced</th> 
@@ -90,7 +42,7 @@
 					<td>V4112</td>
 					<td>Saul</td>
 					<td>Jackson</td>
-					<td>80%</td>		  
+					<td>80%</td>
 				</tr>
 			</table>
 		</div> <!-- end of table div-->

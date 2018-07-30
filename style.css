@@ -1,0 +1,54 @@
+
+h1 {
+	font-family: Rubik, Helvetica, monospace;	
+	font-weight: 700;
+	font-size: 65px;
+}
+th{
+	font-family: Rubik, Helvetica, monospace;
+	border: 3px double black;
+}
+td {
+	font-family: Rubik, Helvetica, monospace;
+	border: 1px solid black;
+	cursor: pointer;
+
+}
+body {
+	background-image: url('map_placeholder.jpg');
+}
+.collapsible {
+	padding: 0px 0px 0px 0px;
+	min-width: 400px;
+	width: 30%;
+}
+.collapsible label {
+	font-family: Helvetica;
+	font-size: 20x;
+	display: block;
+	cursor: pointer;
+	width: 105px;
+	border: 1px solid black;
+	padding: 5px 0 5px 10px;
+	background-color: rgb(255, 255, 255);
+
+}
+input#show_routes {
+	display: none;
+
+}
+.table {
+	max-height: 0;
+	overflow: hidden;
+	padding: 0 0 0 0px;
+	width: 20%
+	max-width: 40%;
+}
+
+<!-- Toggle Collapse of Graph -->
+input:checked ~ label {
+	background-color: black;
+}
+input:checked ~ .table {
+	max-height: 100%;
+}
