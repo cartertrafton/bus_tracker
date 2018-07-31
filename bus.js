@@ -10,6 +10,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 	id: 'mapbox.streets'
 }).addTo(mymap);
 
-	L.marker([42.630, -71.353]).addTo(mymap);
+L.marker([42.630, -71.353]).addTo(mymap);
 
 
