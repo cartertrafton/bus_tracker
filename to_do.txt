@@ -2,8 +2,9 @@
 To-Do:
 	- put table and controls overlapping map
 	- scrape web for table values
-	- add route highlighting
-
+	- add routes to map
+	- add bus tracking
+	- highlight route on selection
 -------------------------------------------------------------------
 
 Functions to build:
