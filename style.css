@@ -22,7 +22,9 @@ table {
 	align: left;
 }
 body {
-	background-image: url('images/map_placeholder.jpg');
+}
+#mapid { 
+	height: 500px; 
 }
 .collapsible {
 	padding: 0 0 0 0px;
