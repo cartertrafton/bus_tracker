@@ -18,13 +18,13 @@ map.
 
 ### Meta
 Carter Trafton – cartertrafton@gmail.com
-
 [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)
 
-##### Resources and Process
+#### Resources and Process
 Beginning this project I did not know any JavaScript, HTML, or CSS. I have used 
 resources such as: 
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
 - [Rithm](https://www.rithmschool.com/courses): for more advanced JavaScript.
-- [W3Schools](https://www.w3schools.com/default.asp): for tons of CSS and HTML 
-reference and tutorials.
+- [W3Schools](https://www.w3schools.com/default.asp): for tons of CSS and HTML reference and tutorials.
+- [CodeAcademy](https://www.codecademy.com): for the git and command line tutorials.
+
