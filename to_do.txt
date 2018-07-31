@@ -1,14 +1,8 @@
 
-Application Features:
-
-- Map						Technology Required: 
-	- Bus tracking							(React?)
-	- Route Highlighting when selected		(Leaflet?)
-	- Map controls (zoom, etc)				(Leaflet?)
-	
-- Graph
-	- Real time updated info				(JS web-scraping)
-	- Collapsible via button on the side	(CSS)
+To-Do:
+	- put table and controls overlapping map
+	- scrape web for table values
+	- add route highlighting
 
 -------------------------------------------------------------------
 

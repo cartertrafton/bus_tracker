@@ -6,11 +6,11 @@ This program is built for tracking bus movements along their fixed-routes for th
 
 ## Features
 - [x] Collapsible table of info on routes
-- [ ] Map
+- [x] Map
 - [ ] Live bus tracking
 - [ ] Real time updated table info
 - [ ] Route highlighting when selected
-- [ ] Map controls (zoom , scroll, etc)
+- [x] Map controls (zoom , scroll, etc)
 
 
 ### Meta
