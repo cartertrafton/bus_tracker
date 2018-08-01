@@ -6,19 +6,22 @@ h1 {
 	font-size: 65px;
 	position: absolute;
  	top: 0px;
-	left: 200px;
-	z-index: 2;
+	left: 25%;
+	z-index: 1;
 	padding: 10px 0 10px 0px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 th{
 	font-family: Helvetica, monospace;
 	border: 3px double black;
+	font-size: 30px;
+
 }
 td {
 	font-family: monospace;
 	border: 1px solid black;
 	cursor: pointer;
+	font-size: 25px;
 
 }
 table {
@@ -28,15 +31,19 @@ table {
 body {
 }
 #mapid { 
-	height: 750px;
+	height: 860px;
 	z-index: 0;
 }
 .collapsible {
 	padding: 0 0 0 0px;
 	min-width: 400px;
-	width: 30%;
+	width: 80%;
+	z-index: 1;
+
 }
 .collapsible label {
+	position: absolute;
+	top: 95%;
 	font-family: Helvetica, monospace;
 	font-size: 20x;
 	display: block;
@@ -46,6 +53,8 @@ body {
 	padding: 5px 0 5px 5px;
 	background-color: #56B750;
 	margin: 5px;
+	z-index: 1;
+
 }
 input#show_routes {
 	display: none;
@@ -58,6 +67,8 @@ input#show_routes {
 	overflow: hidden;
 	padding: 5px 0 0 0px;
 	transition: 0.5s;
+	position: absolute;
+	bottom: 10%;
 }
 <!-- Toggle Collapse of Graph -->
 input:checked ~ label {
