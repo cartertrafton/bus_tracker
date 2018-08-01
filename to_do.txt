@@ -1,22 +1,12 @@
 
 To-Do:
-	- put table and controls overlapping map
 	- scrape web for table values
+		- use API to find values
 	- add routes to map
 	- add bus tracking
+		- add icon to last updated GPS location
 	- highlight route on selection
--------------------------------------------------------------------
-
-Functions to build:
-
-- Track buses real-time
-	- Use information from the graph to	mark and track buses along route
-	- Highlight selected route when clicked on
-
-- Graph update real-time
-	- Link graph values to web-scraping function
-
-
+		- on mouse click, change color and width, make other routes greyed out
 -------------------------------------------------------------------
 
 Graph:
