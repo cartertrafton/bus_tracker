@@ -7,11 +7,22 @@ h1 {
 	position: absolute;
  	top: 0px;
 	left: 25%;
+	z-index: 2; 
+	padding: 10px 0 10px 0px;
+}
+h2  {
+	margin: 0 0 0 0px;
+	font-family: Helvetica, monospace;	
+	color: black;
+	font-weight: 700;
+	font-size: 65px;
+	position: absolute;
+ 	top: 0px;
+	left:24.8%;
 	z-index: 1;
 	padding: 10px 0 10px 0px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-th{
+th {
 	font-family: Helvetica, monospace;
 	border: 3px double black;
 	font-size: 30px;
@@ -48,7 +59,7 @@ body {
 	font-size: 20x;
 	display: block;
 	cursor: pointer;
-	width: 105px;
+	width: 130px;
 	border: 1px solid black;
 	padding: 5px 0 5px 5px;
 	background-color: #56B750;
