@@ -1,38 +1,13 @@
 
 To-Do:
-	- scrape web for table values
-		- use API to find values
-	- add routes to map
-	- add bus tracking
-		- add icon to last updated GPS location
-	- highlight route on selection
-		- on mouse click, change color and width, make other routes greyed out
--------------------------------------------------------------------
-
-Graph:
-- Headers and table formats (#:number, #A:AM, #P:PM, #%:percentage) 
-	- Segment
-		- S#### (V####)
-	- Start Time
-		- ####A
-	- End Time
-		- ####P
-	- Last Announce
-		- ####A
-	- Battery Level
-		- ^BatteryLife:##%
-	- Next Stop
-		- ####A-ID_NUMBER-STOP_NAME
-	- Total Stop
-		- ###
-	- Stop Announced
-		- ##
-	- Accuracy Percentage
-		- ##
-	- Device Time On/Off
-		- #/##/2018 ####A
-	- Battery Levels(%): On/Off
-		- ##%
-	-Segment Time: On/Off
-		- ####A
 	
+- scrape web for table values
+	- use API to find values
+
+- add fixed routes to map
+
+- add bus tracking
+	- add icon to last updated GPS location
+
+- highlight route on selection
+	- on mouse click, change color and width, make other routes greyed out
