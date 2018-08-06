@@ -2,12 +2,12 @@
 To-Do:
 	
 - scrape web for table values
-	- use API to find values
-
+	- write to JSON file
+- Read from JSON file and create HTML table format
+- Fill in table with live data from JSON file
 - add fixed routes to map
-
-- add bus tracking
+	- format of each route is array of GPS coordinate arrays
+- track buses based on location data from JSON file
 	- add icon to last updated GPS location
-
 - highlight route on selection
 	- on mouse click, change color and width, make other routes greyed out

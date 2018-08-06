@@ -8,12 +8,14 @@ for display and controls of the
 map. 
 
 ## Features
-- [x] Collapsible table of info on routes
-- [x] Map
-- [ ] Live bus tracking
-- [ ] Real time updated table info
-- [ ] Route highlighting when selected
+- [x] Collapsible table of bus route info
+- [x] Map background
 - [x] Map controls (zoom , scroll, etc)
+- [ ] Real time updated table info
+- [ ] Live bus location tracking
+- [ ] Bus routes available on map
+- [ ] Route highlighting when selected
+
 
 ## Data Formatting 
 Each bus will be handled as an object by the main program, it will call to a JSON file containing the data for all currently running bus routes. That file will be updated via a web-scraping script or via information sent by the original API of the site. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of:
@@ -34,6 +36,20 @@ busName {
   Segment Time (On/Off) : ####A;
 }
 ```
+
+Each route on the map is formatted as an object as well. The information that they contain will be one long array of GPS coordinates, that themselves will eahc be an array of 2 length containing the geocodes.
+
+```
+routeName {[
+	[-42.5, 71.8];
+	[-42.6, 71.9]
+	[-42.7, 72.0]
+	[-42.8, 72.1]
+	[-42.9, 72.2]
+	[-43.0, 72.3]
+]}
+```
+
 
 ## Meta
 @cartertrafton - cartertrafton@gmail.com - [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)
