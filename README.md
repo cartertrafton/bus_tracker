@@ -22,26 +22,26 @@ Each bus will be handled as an object by the main program, it will call to a JSO
 
 ```
 busName {
-  Segment : S#### (V####);
-  Start Time :  ####A;
-  End Time : ####P;
-  Last Announce : ####A;
-  Battery Level : ##%;
-  Next Stop : ####A-ID_NUMBER-STOP_NAME;
-  Total Stop : ###;
-  Stop Announced : ##;
-  Accuracy Percentage: ##;
-  Device Time On/Off : #/##/2018 ####A;
-  Battery Levels(%)(On/Off):  ##%;
-  Segment Time (On/Off) : ####A;
+  segment : S#### (V####);
+  start_time :  ####A;
+  end_time : ####P;
+  last_announce : ####A;
+  battery_level : ##%;
+  next_stop : ####A-ID_NUMBER-STOP_NAME;
+  total_stop : ###;
+  stop_announced : ##;
+  accuracy_percentage: ##;
+  device_time_onOff: #/##/2018 ####A;
+  battery_levels_onOff:  ##%;
+  segment_time_onOff : ####A;
 }
 ```
 
-Each route on the map is formatted as an object as well. The information that they contain will be one long array of GPS coordinates, that themselves will eahc be an array of 2 length containing the geocodes.
+Each route on the map is formatted as an object as well. Each object will contain an array GPS coordinates, that take the form of a smaller 2-length array:
 
 ```
 routeName {[
-	[-42.5, 71.8], 
+	[-42.5, 71.8],
 	[-42.6, 71.9],
 	[-42.7, 72.0],
 	[-42.8, 72.1],
