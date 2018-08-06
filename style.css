@@ -6,7 +6,7 @@ h1 {
 	font-size: 65px;
 	position: absolute;
  	top: 0px;
-	left: 25%;
+	left: 33%;
 	z-index: 2; 
 	padding: 10px 0 10px 0px;
 }
@@ -18,7 +18,7 @@ h2  {
 	font-size: 65px;
 	position: absolute;
  	top: 0px;
-	left:24.8%;
+	left:32.8%;
 	z-index: 1;
 	padding: 10px 0 10px 0px;
 }

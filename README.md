@@ -15,12 +15,20 @@ map.
 - [ ] Route highlighting when selected
 - [x] Map controls (zoom , scroll, etc)
 
+## Timeline
+- [x] Week 1: Learning HTML & CSS 
+- [x] Week 2: Learning basic JavaScript
+- [x] Week 3: Learning advanced JavaScript & set up initial site test
+- [ ] **Week 4: Advanced JavaScript(cont) & additional features**
+- [ ] Week 5: React.js
+- [ ] Week 6: Final Organization and polishing
+- [ ] Week 7: Project Finish Goal
 
 ### Meta
 Carter Trafton – cartertrafton@gmail.com
 [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)
 
-#### Resources and Process
+##### Resources and Process
 Beginning this project I did not know any JavaScript, HTML, or CSS. I have used 
 resources such as: 
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
