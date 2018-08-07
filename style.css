@@ -40,7 +40,13 @@ table {
 	background-color: #F4FF8C;
 	align: left;
 }
-body {
+#link {
+	position: absolute;
+	top: 10px;
+	right: 3%;
+	z-index: 1;
+	font-family: monospace;	
+	font-size: 14px;
 }
 #mapid { 
 	height: 97vh;
