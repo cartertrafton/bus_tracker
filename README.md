@@ -21,19 +21,19 @@ map.
 Each bus will be handled as an object by the main program, it will call to a JSON file containing the data for all currently running bus routes. That file will be updated via a web-scraping script or via information sent by the original API of the site. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of:
 
 ```
-busName {
-  segment : S#### (V####);
-  start_time :  ####A;
-  end_time : ####P;
-  last_announce : ####A;
-  battery_level : ##%;
-  next_stop : ####A-ID_NUMBER-STOP_NAME;
-  total_stop : ###;
-  stop_announced : ##;
-  accuracy_percentage: ##;
-  device_time_onOff: #/##/2018 ####A;
-  battery_levels_onOff:  ##%;
-  segment_time_onOff : ####A;
+"V####" {
+  "segment" : "S####",
+  "start_time" :  "####A",
+  "end_time" : "####P",
+  "last_announce" : "####A",
+  "battery_level" : "##%",
+  "next_stop" : "####A-ID_NUMBER-STOP_NAME",
+  "total_stop" : "###",
+  "stop_announced" : "##",
+  "accuracy_percentage" : "##",
+  "device_time_onOff" : "#/##/2018 ####A",
+  "battery_levels_onOff" :  "##%",
+  "segment_time_onOff" : "####A"
 }
 ```
 
@@ -59,8 +59,8 @@ routeName {[
 - [x] Week 2: Learning basic JavaScript & set up initial site test
 - [x] Week 3: Learning advanced JavaScript & adding features
 - [ ] **Week 4: Continuing advanced JavaScript & learning Leaflet library**
-- [ ] Week 5: React.js
-- [ ] Week 6: Programming & organization
+- [ ] Week 5: Implementing features (live tracking, bus routes, etc)
+- [ ] Week 6: Polish and documentation
 - [ ] Week 7: Project Finish - Goal
 
 ### Resources and Process
@@ -70,5 +70,6 @@ resources such as:
 - [Rithm](https://www.rithmschool.com/courses): for more advanced JavaScript.
 - [W3Schools](https://www.w3schools.com/default.asp): for tons of CSS and HTML reference and tutorials.
 - [CodeAcademy](https://www.codecademy.com): for the git and command line tutorials.
+- [Leaflet JS Library](https://leafletjs.com/reference-1.3.2.html): for mapping, geolocation, GPS markers, and route mapping
 
-
+:)
