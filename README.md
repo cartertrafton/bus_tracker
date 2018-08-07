@@ -18,7 +18,7 @@ map.
 
 
 ## Data Formatting 
-Each bus will be handled as an object by the main program, it will call to a JSON file containing the data for all currently running bus routes. That file will be updated via a web-scraping script or via information sent by the original API of the site. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of:
+Each bus will be handled as an object by the main program, and it will call a function that gets the data from either a webscraping script or an API. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of:
 
 ```
 "V####" {
