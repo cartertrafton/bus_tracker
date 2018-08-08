@@ -58,12 +58,13 @@ routeName {[
 - [x] Week 1: Learning HTML & CSS 
 - [x] Week 2: Learning basic JavaScript & set up initial site test
 - [x] Week 3: Learning advanced JavaScript & adding features
-- [ ] **Week 4: Continuing advanced JavaScript & learning Leaflet library**
+- [x] **Week 4: Continuing advanced JavaScript & learning Leaflet 
+library**
 - [ ] Week 5: Implementing features (live tracking, bus routes, etc)
 - [ ] Week 6: Polish and documentation
 - [ ] Week 7: Project Finish - Goal
 
-### Resources and Process
+:~)
 Beginning this project I did not know any JavaScript, HTML, or CSS. I have used 
 resources such as: 
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
