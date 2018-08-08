@@ -7,7 +7,6 @@ To-Do:
 		makeTableFromValues();
 		updateValuesButton();
 - add fixed routes to map
-	- learn polylines and routing from Leaflet
 	- format of each route is array of GPS coordinate arrays
 - track buses based on location data from table.js
 	- add icon to last updated GPS location (Leaflet)
