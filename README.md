@@ -58,13 +58,12 @@ routeName {[
 - [x] Week 1: Learning HTML & CSS 
 - [x] Week 2: Learning basic JavaScript & set up initial site test
 - [x] Week 3: Learning advanced JavaScript & adding features
-- [x] **Week 4: Continuing advanced JavaScript & learning Leaflet 
-library**
-- [ ] Week 5: Implementing features (live tracking, bus routes, etc)
+- [x] Week 4: Continuing advanced JavaScript & learning Leaflet 
+library
+- [x] Week 5: Implementing features (live tracking, bus routes, etc)
 - [ ] Week 6: Polish and documentation
 - [ ] Week 7: Project Finish - Goal
 
-:~)
 Beginning this project I did not know any JavaScript, HTML, or CSS. I have used 
 resources such as: 
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
@@ -73,4 +72,4 @@ resources such as:
 - [CodeAcademy](https://www.codecademy.com): for the git and command line tutorials.
 - [Leaflet JS Library](https://leafletjs.com/reference-1.3.2.html): for mapping, geolocation, GPS markers, and route mapping
 
-:)
+:~)
