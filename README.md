@@ -60,7 +60,7 @@ routeName {[
 - [x] Week 3: Learning advanced JavaScript & adding features
 - [x] Week 4: Continuing advanced JavaScript & learning Leaflet 
 library
-- [x] Week 5: Implementing features (live tracking, bus routes, etc)
+- [ ] **Week 5: Implementing features (live tracking, bus routes, etc)**
 - [ ] Week 6: Polish and documentation
 - [ ] Week 7: Project Finish - Goal
 
