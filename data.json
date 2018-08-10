@@ -10,8 +10,8 @@
 	  "stop_announced" : "11",
 	  "accuracy_percentage" : "11",
 	  "device_time_onOff" : "#/##/2018 1111A",
-	  "battery_levels_onOff" :  "11%"
-	  "segment_time_onOff" : "1111A",
+	  "battery_levels_onOff" :  "11%",
+	  "segment_time_onOff" : "1111A"
 	}
 	"V2222" {
 	  "segment" : "S2222",
@@ -24,8 +24,8 @@
 	  "stop_announced" : "22",
 	  "accuracy_percentage" : "22",
 	  "device_time_onOff" : "#/##/2018 2222A",
-	  "battery_levels_onOff" :  "22%"
-	  "segment_time_onOff" : "2222A",
+	  "battery_levels_onOff" :  "22%",
+	  "segment_time_onOff" : "2222A"
 	}
 	"V3333" {
 	  "segment" : "S3333",
@@ -38,8 +38,8 @@
 	  "stop_announced" : "33",
 	  "accuracy_percentage" : "33",
 	  "device_time_onOff" : "#/##/2018 3333A",
-	  "battery_levels_onOff" :  "33%"
-	  "segment_time_onOff" : "3333A",
+	  "battery_levels_onOff" :  "33%",
+	  "segment_time_onOff" : "3333A"
 	}
 
 }
