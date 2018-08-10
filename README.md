@@ -61,8 +61,7 @@ routeName {[
 - [x] Week 4: Continuing advanced JavaScript & learning Leaflet 
 library
 - [ ] **Week 5: Implementing features (live tracking, bus routes, etc)**
-- [ ] Week 6: Polish and documentation
-- [ ] Week 7: Project Finish - Goal
+- [ ] Week 6: Project Finish - Goal
 
 Beginning this project I did not know any JavaScript, HTML, or CSS. I have used 
 resources such as: 
