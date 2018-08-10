@@ -12,9 +12,9 @@ map.
 - [x] Map background
 - [x] Map controls (zoom , scroll, etc)
 - [ ] Real time updated table info
-- [ ] Live bus location tracking
 - [ ] Bus routes available on map
 - [ ] Route highlighting when selected
+- [ ] Live bus location tracking
 
 
 ## Data Formatting 
