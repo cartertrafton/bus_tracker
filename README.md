@@ -6,6 +6,8 @@ This program is built for tracking bus movements along their fixed-routes for th
 It utilizes the [Leaflet JavaScript library](https://github.com/Leaflet/Leaflet) 
 for display and controls of the 
 map. 
+## Current Build
+![Current Build Screenshot (WIP)](https://i.imgur.com/Y2SpdfG.jpg)
 
 ## Features
 - [x] Collapsible table of bus route info
