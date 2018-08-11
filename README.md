@@ -7,7 +7,7 @@ It utilizes the [Leaflet JavaScript library](https://github.com/Leaflet/Leaflet)
 for display and controls of the 
 map. 
 ## Current Build
-![Current Build Screenshot (WIP)](https://i.imgur.com/Y2SpdfG.jpg)
+![Current Build Screenshot (WIP)](https://i.imgur.com/fmh3A8r.jpg)
 
 ## Features
 - [x] Collapsible table of bus route info
