@@ -7,14 +7,14 @@ It utilizes the [Leaflet JavaScript library](https://github.com/Leaflet/Leaflet)
 for display and controls of the map. Before starting this project I did not know any HTML, CSS, or JavaScript, and have been teaching myself via free online courses and code practice sites.
 
 ## Current Build
-![Current Build Screenshot (WIP)](https://i.imgur.com/C8KMixB.jpg)
+![Current Build Screenshot (WIP)](https://i.imgur.com/oxy7ord.png)
 
 ## Features
 - [x] Collapsible table of bus route info
 - [x] Map background
 - [x] Map controls (zoom , scroll, etc)
 - [ ] Real time updated table info
-- [ ] Bus routes available on map
+- [x] Bus routes available on map
 - [ ] Route highlighting when selected
 - [ ] Live bus location tracking
 
