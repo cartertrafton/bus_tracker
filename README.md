@@ -65,6 +65,7 @@ library
 - [ ] **Week 5: Implementing features (live tracking, bus routes, etc)**
 - [ ] Week 6: Project Finish - Goal
 
+### Resources
 Becasuse I did not know any JavaScript, HTML, or CSS, I have used resources such as: 
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
 - [Rithm](https://www.rithmschool.com/courses): for more advanced JavaScript.
