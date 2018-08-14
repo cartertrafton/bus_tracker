@@ -1,19 +1,15 @@
 
 To-Do:
 	
-- Read from JSON file and create HTML table format
-	- maybe format table function as (in order to remove JSON buisness):
-		getValuesFromWeb();
-		makeTableFromValues();
-		updateValuesButton();
-- add fixed routes to map
-	- format of each route is array of GPS coordinate arrays
-- track buses based on location data from table.js
-	- add icon to last updated GPS location (Leaflet)
-	- make bus icon
-- highlight route on selection
-	- on mouse click, change color and width, make other routes greyed out
-		highlightRoute();
-			change CSS of vectors (Leaflet research into how polylines are styled)
-		clearHighlight();
-			reset CSS
+- Read from online table and capture values
+	getValues();
+	
+- Build and fill table and update button
+	makeTable();
+	updateValues();
+	
+	
+	
+- Highlight route on selection
+	highlightRoute();
+	clearHighlight();
