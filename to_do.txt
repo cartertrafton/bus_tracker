@@ -10,4 +10,3 @@ To-Do:
 
 - Highlight route on selection
 		highlightRoute();
-		clearHighlight();

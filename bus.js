@@ -37,7 +37,7 @@ var data = {
     ],
   },
   bus1 : {
-    "color": 'blue',
+    "color": 'gray',
     "route": [
       [42.6301252,	-71.3486881],
       [42.6284438,	-71.3480659],
@@ -57,7 +57,7 @@ var data = {
     ]
   },
   bus2 : {
-    "color": 'green',
+    "color": 'gray',
     "route": [
       [42.6295578,	-71.3537991],
       [42.6297315,	-71.3550222],
@@ -75,8 +75,8 @@ var data = {
   }
 }
 
-
-
+// Temp array for access to data object
+var routeArr = Object.keys(data);
 
 // Leaflet pre-written code for setting up map controls (zoom, scroll, etc)
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -96,12 +96,13 @@ function makeIcon(bus){
 
 // This function places a route on the map
 // Passes bus name, and generates a poly-line along the route
-function makeRoute(bus, routeColor) {
-	var polyline = L.polyline(bus.route, {color: bus.color}).addTo(mymap);
+function makeRoute(bus) {
+	var polyline = L.polyline(bus.route, {color: bus.color, weight:5}).addTo(mymap);
 }
 
 // This function changes the color of the bus it is passed
 function highlightRoute() {
+
 }
 
 // This function resets the color of the highlighted route back to gray
@@ -109,11 +110,22 @@ function clearRoute() {
 }
 
 //Testing Environment
-makeRoute(data.bus0, data.bus0);
+makeRoute(data.bus0);
 makeIcon(data.bus0);
 
-makeRoute(data.bus1, data.bus1);
+makeRoute(data.bus1);
 makeIcon(data.bus1);
 
-makeRoute(data.bus2, data.bus2);
+makeRoute(data.bus2);
 makeIcon(data.bus2);
+
+
+mymap.on('click', function () {
+    var tempColor = Math.floor(Math.random() * 3);
+    var tempRoute = routeArr[Math.floor(Math.random() * 3)];
+    console.log(tempRoute);
+
+    data[tempRoute]['color'] = (tempColor >= 1) ? ( tempColor >= 2 ? 'green': 'blue') : 'yellow';
+    makeRoute(data[tempRoute]);
+    //alert('clicked a route');
+} );
