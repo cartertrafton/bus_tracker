@@ -1,5 +1,5 @@
 // Temp data for tbale building until the web-scraping is done
-data = {
+var data = {
 	  "V1111" : {
 	    "segment" : "S1111",
 	    "start_time" :  "1111A",
