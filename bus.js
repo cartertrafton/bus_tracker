@@ -90,7 +90,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 // This functions places a bus icon on the map
 // Passes bus name, and generates an icon at the last GPS location
 function makeIcon(bus){
-	var lastCoord = bus.route[data.route.length - 1];
+	var lastCoord = bus.route[bus.route.length - 1];
 	L.marker(lastCoord,{icon: busIcon}).addTo(mymap);
 }
 
@@ -115,5 +115,5 @@ makeIcon(data.bus0);
 makeRoute(data.bus1, data.bus1);
 makeIcon(data.bus1);
 
-makeRoute(data.bus2.route, data.bus2);
+makeRoute(data.bus2, data.bus2);
 makeIcon(data.bus2);
