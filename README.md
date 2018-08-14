@@ -3,7 +3,7 @@
 
 ## Background
 This program is built for tracking bus movements along their fixed-routes for the MRTA.
-It utilizes the [Leaflet JavaScript library](https://github.com/Leaflet/Leaflet) 
+It utilizes the [Leaflet JavaScript library](https://github.com/Leaflet/Leaflet)
 for display and controls of the map. Before starting this project I did not know any HTML, CSS, or JavaScript, and have been teaching myself via free online courses and code practice sites.
 
 ## Current Build
@@ -19,11 +19,11 @@ for display and controls of the map. Before starting this project I did not know
 - [ ] Live bus location tracking
 
 
-## Data Formatting 
+## Data Formatting
 Each bus will be handled as an object by the main program, and it will call a function that gets the data from either a webscraping script or an API. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of:
 
 ```
-"V####" {
+"V####" : {
   "segment" : "S####",
   "start_time" :  "####A",
   "end_time" : "####P",
@@ -42,14 +42,17 @@ Each bus will be handled as an object by the main program, and it will call a fu
 Each route on the map is formatted as an object as well. Each object will contain an array GPS coordinates, that take the form of a smaller 2-length array:
 
 ```
-routeName {[
-	[-42.5, 71.8],
-	[-42.6, 71.9],
-	[-42.7, 72.0],
-	[-42.8, 72.1],
-	[-42.9, 72.2],
-	[-43.0, 72.3]
-]}
+busID : {
+  "color": gray,
+  "route": [
+    [-42.5, 71.8],
+  	[-42.6, 71.9],
+  	[-42.7, 72.0],
+  	[-42.8, 72.1],
+  	[-42.9, 72.2],
+  	[-43.0, 72.3]
+  ],
+}
 ```
 
 
@@ -57,16 +60,16 @@ routeName {[
 @cartertrafton - cartertrafton@gmail.com - [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)
 
 ### Timeline
-- [x] Week 1: Learning HTML & CSS 
+- [x] Week 1: Learning HTML & CSS
 - [x] Week 2: Learning basic JavaScript & set up initial site test
 - [x] Week 3: Learning advanced JavaScript & adding features
-- [x] Week 4: Continuing advanced JavaScript & learning Leaflet 
+- [x] Week 4: Continuing advanced JavaScript & learning Leaflet
 library
 - [ ] **Week 5: Implementing features (live tracking, bus routes, etc)**
 - [ ] Week 6: Project Finish - Goal
 
 ### Resources
-Becasuse I did not know any JavaScript, HTML, or CSS, I have used resources such as: 
+Becasuse I did not know any JavaScript, HTML, or CSS, I have used resources such as:
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
 - [Rithm](https://www.rithmschool.com/courses): for more advanced JavaScript.
 - [W3Schools](https://www.w3schools.com/default.asp): for tons of CSS and HTML reference and tutorials.

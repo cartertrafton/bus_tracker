@@ -1,15 +1,13 @@
 
 To-Do:
-	
+
 - Read from online table and capture values
-	getValues();
-	
+		getValues();
+
 - Build and fill table and update button
-	makeTable();
-	updateValues();
-	
-	
-	
+		makeTable();
+		updateValues();
+
 - Highlight route on selection
-	highlightRoute();
-	clearHighlight();
+		highlightRoute();
+		clearHighlight();
