@@ -44,14 +44,13 @@ Each route on the map is formatted as an object as well. Each object will contai
 ```
 busID : {
   "color": gray,
-  "route": [
-    [-42.5, 71.8],
+  "route": 
+   [[-42.5, 71.8],
   	[-42.6, 71.9],
   	[-42.7, 72.0],
   	[-42.8, 72.1],
   	[-42.9, 72.2],
-  	[-43.0, 72.3]
-  ],
+  	[-43.0, 72.3]]
 }
 ```
 
