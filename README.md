@@ -44,8 +44,8 @@ Each route on the map is formatted as an object as well. Each object will contai
 ```
 busID : {
   "color": gray,
-  "route": 
-   [[-42.5, 71.8],
+  "route":
+    [[-42.5, 71.8],
   	[-42.6, 71.9],
   	[-42.7, 72.0],
   	[-42.8, 72.1],
@@ -64,11 +64,11 @@ busID : {
 - [x] Week 3: Learning advanced JavaScript & adding features
 - [x] Week 4: Continuing advanced JavaScript & learning Leaflet
 library
-- [ ] **Week 5: Implementing features (live tracking, bus routes, etc)**
+- [x] **Week 5: Implementing features**
 - [ ] Week 6: Project Finish - Goal
 
 ### Resources
-Becasuse I did not know any JavaScript, HTML, or CSS, I have used resources such as:
+Because I did not know any JavaScript, HTML, or CSS, I have used resources such as:
 - [Free Code Camp](https://learn.freecodecamp.org): for basic HTML, CSS, and JS.
 - [Rithm](https://www.rithmschool.com/courses): for more advanced JavaScript.
 - [W3Schools](https://www.w3schools.com/default.asp): for tons of CSS and HTML reference and tutorials.
