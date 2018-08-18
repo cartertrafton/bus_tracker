@@ -42,9 +42,10 @@ Each bus will be handled as an object by the main program, and it will call a fu
 Each route on the map is formatted as an object as well. Each object will contain an array GPS coordinates, that take the form of a smaller 2-length array:
 
 ```
-busID : {
-  "color": gray,
-  "route":
+{
+  "busID" : ###;
+  "color" : gray,
+  "route" :
     [[-42.5, 71.8],
   	[-42.6, 71.9],
   	[-42.7, 72.0],
