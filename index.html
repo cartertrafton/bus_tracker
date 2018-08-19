@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>MRTA Bus Tracking</title>
 	<link rel="shortcut icon" type="image/x-icon" href="Q.ico" />
-	
+
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
 	   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
 	   crossorigin=""/>
@@ -17,27 +17,25 @@
 <body>
 	<div id="mapid"></div>
 	<script src="bus.js"></script>
-	<script type="text/javascript" src="data.json"></script>
 
 	<div class="collapsible">
-		<input type="checkbox" id="show_routes">
-		<label for="show_routes"><b><i>SHOW ROUTES</i></b></label>
-		
+			<input type="checkbox" id="show_routes">
+			<label for="show_routes"><b><i>SHOW ROUTES</i></b></label>
 		<div class="table">
 			<table>
 				<tr>
 					<th>Segment</th>
-					<th>Start Time</th> 
+					<th>Start Time</th>
 					<th>End Time</th>
 					<th>Last Announce</th>
 					<th>Battery Level</th>
-					
+
 					<th>Next Stop</th>
 					<th>Total Stop</th>
 					<th>Stop Announced</th>
 					<th>Accuracy Percentage</th>
 					<th>Device Time (On/Off)</th>
-					
+
 					<th>Battery Levels (%)(On/Off)</th>
 					<th>Segment Time (On/Off)</th>
 				</tr>
@@ -45,15 +43,15 @@
 					<td>V4111_test</td>
 					<td>1100A_test</td>
 					<td>1200P_test</td>
-					<td>####A_test</td>	
+					<td>####A_test</td>
 					<td>50%_test</td>
-					
+
 					<td>####A-ID_NUMBER-STOP_NAME_test</td>
 					<td>###_test</td>
 					<td>##_test</td>
 					<td>##_test</td>
 					<td>#/##/2018 ####A_test</td>
-					
+
 					<td>##%_test</td>
 					<td>####A_test</td>
 				</tr>
@@ -61,15 +59,15 @@
 					<td>V4112_test</td>
 					<td>1100A_test</td>
 					<td>1030P_test</td>
-					<td>####A_test</td>	
+					<td>####A_test</td>
 					<td>99%_test</td>
-					
+
 					<td>####A-ID_NUMBER-STOP_NAME_test</td>
 					<td>###_test</td>
 					<td>##_test</td>
 					<td>##_test</td>
 					<td>#/##/2018 ####A_test</td>
-					
+
 					<td>##%_test</td>
 					<td>####A_test</td>
 				</tr>
@@ -77,22 +75,22 @@
 					<td>V4113_test</td>
 					<td>0700A_test</td>
 					<td>0400P_test</td>
-					<td>####A_test</td>	
+					<td>####A_test</td>
 					<td>1%_test</td>
-					
+
 					<td>####A-ID_NUMBER-STOP_NAME_test</td>
 					<td>###_test</td>
 					<td>##_test</td>
 					<td>##_test</td>
 					<td>#/##/2018 ####A_test</td>
-					
+
 					<td>##%_test</td>
-					<td>####A_test</td>	  
+					<td>####A_test</td>
 				</tr>
 			</table>
-		</div> 
+		</div>
 	</div>
-	
+
 	<h1><i>MRTA Bus</br>Tracking</i></h1>
 	<h2><i>MRTA Bus</br>Tracking</i></h2>
 	<p id="link">Powered by <a href="http://qryde.com/">QRyde/HBSS</a></p>
