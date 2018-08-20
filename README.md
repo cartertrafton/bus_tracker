@@ -24,21 +24,21 @@ Each bus will be handled as an object by the main program, and it will call a fu
 
 ```
 {
-    "busID" : ###;
-    "segment" : "S####",
-    "start_time" :  "####A",
-    "end_time" : "####P",
-    "last_announce" : "####A",
-    "battery_level" : "##%",
-    "next_stop" : "####A-ID_NUMBER-STOP_NAME",
-    "total_stop" : "###",
-    "stop_announced" : "##",
-    "accuracy_percentage" : "##",
-    "device_time_onOff" : "#/##/2018 ####A",
-    "battery_levels_onOff" :  "##%",
-    "segment_time_onOff" : "####A",
-    "color" : gray,
-    "route" :
+    'busID' : ###,
+    'segment' : 'S####',
+    'start_time' :  '####A',
+    'end_time' : '####P',
+    'last_announce' : '####A',
+    'battery_level' : '##%',
+    'next_stop' : '####A-ID_NUMBER-STOP_NAME',
+    'total_stop' : '###',
+    'stop_announced' : '##',
+    'accuracy_percentage' : '##',
+    'device_time_onOff' : '#/##/2018 ####A',
+    'battery_levels_onOff' :  '##%',
+    'segment_time_onOff' : '####A',
+    'color' : gray,
+    'route' :
       [[-42.5, 71.8],
        [-42.6, 71.9],
        [-42.7, 72.0],
