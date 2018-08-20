@@ -150,7 +150,27 @@ function makeTable() {
 		tr.appendChild(th);
 	}
 
+	// Add data to table as rows
+	for (var i = 0; i < data.length; i++) {
+		tr = table.insertRow(-1);
+
+		for (var j = 0; j < col.length; j++) {
+			var tabCell = tr.insertCell(-1);
+			tabCell.innerHTML = data[i][col[j]];
+		}
+	}
+
+	// FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+	var divContainer = document.getElementById("table");
+	divContainer.innerHTML = "";
+	divContainer.appendChild(table);
+
+
 }
+
+// ---------------------
+// WIP functions
+// ---------------------
 
 // This function gets the data from the existing site and saves them for use here
 function getValues() {
@@ -172,6 +192,7 @@ function clearRoute() {
 // ---------------------
 //  Testing Environment
 // ---------------------
+makeTable();
 
 for (let i = 0; i < data.length; i++) {
     makeRoute(data[i]);
@@ -184,7 +205,8 @@ mymap.on('click', function () {
     var tempRoute = Math.floor(Math.random() * 3);
     console.log('bus: ' + tempRoute + ' color: ' + tempColor);
 
-    data[tempRoute].color = (tempColor >= 1) ? ( tempColor >= 2 ? 'green': 'blue') : 'yellow';
+    data[tempRoute]['color'] = (tempColor >= 1) ? ( tempColor >= 2 ? 'green': 'blue') : 'yellow';
     makeRoute(data[tempRoute]);
+    makeTable();
     //alert('clicked a route');
 } );

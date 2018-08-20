@@ -3,8 +3,7 @@ To-Do:
 - Read from online table and capture values
 		getValues();
 
-- Build and fill table and update button
-		makeTable()	: build table via data object;
+- Fill table and update button
 		updateValues() : update button attached to table
 
 - Highlight route on selection
