@@ -13,7 +13,7 @@ for display and controls of the map. Before starting this project I did not know
 - [x] Collapsible table of bus route info
 - [x] Map background
 - [x] Map controls (zoom , scroll, etc)
-- [ ] Real time updated table info
+- [x] Attach table values to easily assigned variables
 - [x] Bus routes available on map
 - [ ] Route highlighting when selected
 - [ ] Live bus location tracking
