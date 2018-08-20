@@ -1,15 +1,3 @@
-// Sets up the map
-var mymap = L.map('mapid').setView([42.630029,-71.353681], 13);
-
-//Customize icon
-var busIcon = L.icon({
-    iconUrl: 'bus-icon.png',
-
-    iconSize:     [40, 40], // size of the icon
-    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
-    popupAnchor:  [20, 20] // point from which the popup should open relative to the iconAnchor
-});
-
 // Hard coded data for bus routes
 var data = [
 {   'ID': 'V0000',
@@ -108,14 +96,24 @@ var data = [
         [42.6237951,	-71.3669312]]
 }]; // bus2 - data
 
+// Sets up the map
+var mymap = L.map('mapid').setView([42.630029,-71.353681], 13);
+
+//Customize icon
+var busIcon = L.icon({
+    iconUrl: 'bus-icon.png',
+
+    iconSize:     [40, 40], // size of the icon
+    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+    popupAnchor:  [20, 20] // point from which the popup should open relative to the iconAnchor
+});
 
 // Leaflet pre-written code for setting up map controls (zoom, scroll, etc)
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-	maxZoom: 18,
-	attribution: 'Map data &copy; <a href='https://www.openstreetmap.org/'>OpenStreetMap</a> contributors, ' +
-		'<a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a>, ' +
-		'Imagery � <a href='https://www.mapbox.com/'>Mapbox</a>',
-	id: 'mapbox.streets'
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
 }).addTo(mymap);
 
 // This functions places a bus icon on the map
@@ -131,27 +129,26 @@ function makeRoute(bus) {
 	var polyline = L.polyline(bus.route, {color: bus.color, weight:5}).addTo(mymap);
 }
 
-// This function changes the color of the bus it is passed
-function highlightRoute() {
-}
-
-// This function resets the color of the highlighted route back to gray
-function clearRoute() {
-}
-
-
 // Fucntion that builds the HTML table out of the data object
 function makeTable() {
     // Create table element
 	var table = document.createElement("table");
-    var col = [];
 
+    // Extract data keys for HTML headers
+    var col = []; // Array of keys in data
 	for (var i = 0; i < data.length; i++) {
 		for (var key in data[i]) {
 			if (col.indexOf(key) === -1) { col.push(key) }
 		}
 	}
 
+    // Create HTML table header row using col array
+	var tr = table.insertRow(-1);  // table row
+	for (var i = 0; i < col.length; i++) {
+		var th = document.createElement("th");  // table header
+		th.innerHTML = col[i];
+		tr.appendChild(th);
+	}
 
 }
 
@@ -163,11 +160,19 @@ function getValues() {
 function updateValues() {
 }
 
+// This function changes the color of the bus it is passed
+function highlightRoute() {
+}
+
+// This function resets the color of the highlighted route back to gray
+function clearRoute() {
+}
 
 
+// ---------------------
+//  Testing Environment
+// ---------------------
 
-
-//Testing Environment
 for (let i = 0; i < data.length; i++) {
     makeRoute(data[i]);
     makeIcon(data[i]);
