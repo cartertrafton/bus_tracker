@@ -20,41 +20,33 @@ for display and controls of the map. Before starting this project I did not know
 
 
 ## Data Formatting
-Each bus will be handled as an object by the main program, and it will call a function that gets the data from either a webscraping script or an API. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of:
-
-```
-"V####" : {
-  "segment" : "S####",
-  "start_time" :  "####A",
-  "end_time" : "####P",
-  "last_announce" : "####A",
-  "battery_level" : "##%",
-  "next_stop" : "####A-ID_NUMBER-STOP_NAME",
-  "total_stop" : "###",
-  "stop_announced" : "##",
-  "accuracy_percentage" : "##",
-  "device_time_onOff" : "#/##/2018 ####A",
-  "battery_levels_onOff" :  "##%",
-  "segment_time_onOff" : "####A"
-}
-```
-
-Each route on the map is formatted as an object as well. Each object will contain an array GPS coordinates, that take the form of a smaller 2-length array:
+Each bus will be handled as an object by the main program, and it will call a function that gets the data from either a web-scraping script or an API. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of an object with the keys being the relevant data, including ID number, route color, and GPS coordinates (in the form of a two-dimensional array):
 
 ```
 {
-  "busID" : ###;
-  "color" : gray,
-  "route" :
-    [[-42.5, 71.8],
-  	[-42.6, 71.9],
-  	[-42.7, 72.0],
-  	[-42.8, 72.1],
-  	[-42.9, 72.2],
-  	[-43.0, 72.3]]
+    "busID" : ###;
+    "segment" : "S####",
+    "start_time" :  "####A",
+    "end_time" : "####P",
+    "last_announce" : "####A",
+    "battery_level" : "##%",
+    "next_stop" : "####A-ID_NUMBER-STOP_NAME",
+    "total_stop" : "###",
+    "stop_announced" : "##",
+    "accuracy_percentage" : "##",
+    "device_time_onOff" : "#/##/2018 ####A",
+    "battery_levels_onOff" :  "##%",
+    "segment_time_onOff" : "####A",
+    "color" : gray,
+    "route" :
+      [[-42.5, 71.8],
+       [-42.6, 71.9],
+       [-42.7, 72.0],
+       [-42.8, 72.1],
+       [-42.9, 72.2],
+       [-43.0, 72.3]]
 }
 ```
-
 
 ## Meta
 @cartertrafton - cartertrafton@gmail.com - [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)

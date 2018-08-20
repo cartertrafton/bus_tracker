@@ -139,6 +139,34 @@ function highlightRoute() {
 function clearRoute() {
 }
 
+
+// Fucntion that builds the HTML table out of the data object
+function makeTable() {
+    // Create table element
+	var table = document.createElement("table");
+    var col = [];
+
+	for (var i = 0; i < data.length; i++) {
+		for (var key in data[i]) {
+			if (col.indexOf(key) === -1) { col.push(key) }
+		}
+	}
+
+
+}
+
+// This function gets the data from the existing site and saves them for use here
+function getValues() {
+}
+
+// This function updates the values that are being shown in the map
+function updateValues() {
+}
+
+
+
+
+
 //Testing Environment
 for (let i = 0; i < data.length; i++) {
     makeRoute(data[i]);
