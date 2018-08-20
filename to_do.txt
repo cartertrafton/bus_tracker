@@ -1,16 +1,15 @@
 
 To-Do:
 - Combine table.js and bus.js
-	- Organize comments and combine data.figures
+	- update the README.md to account for single data object
+	- Organize comments
 
 - Read from online table and capture values
 		getValues();
 
 - Build and fill table and update button
-		makeTable()
-			- build table via data object;
-		updateValues();
-			- update button attached to table
+		makeTable()	: build table via data object;
+		updateValues() : update button attached to table
+
 - Highlight route on selection
-		highlightRoute();
-			- on click of <tr> of each bus will makeRoute in new color
+		highlightRoute() : on click of <tr> of each bus will makeRoute in new color
