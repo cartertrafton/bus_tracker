@@ -1,9 +1,5 @@
 
 To-Do:
-- Combine table.js and bus.js
-	- update the README.md to account for single data object
-	- Organize comments
-
 - Read from online table and capture values
 		getValues();
 

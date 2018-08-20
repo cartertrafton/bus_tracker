@@ -24,7 +24,7 @@ Each bus will be handled as an object by the main program, and it will call a fu
 
 ```
 {
-    'busID' : ###,
+    'busID' : '###',
     'segment' : 'S####',
     'start_time' :  '####A',
     'end_time' : '####P',
@@ -37,7 +37,7 @@ Each bus will be handled as an object by the main program, and it will call a fu
     'device_time_onOff' : '#/##/2018 ####A',
     'battery_levels_onOff' :  '##%',
     'segment_time_onOff' : '####A',
-    'color' : gray,
+    'color' : 'gray',
     'route' :
       [[-42.5, 71.8],
        [-42.6, 71.9],
@@ -49,7 +49,7 @@ Each bus will be handled as an object by the main program, and it will call a fu
 ```
 
 ## Meta
-@cartertrafton - cartertrafton@gmail.com - [https://github.com/cartertrafton/bus_tracker](https://github.com/cartertrafton/)
+cartertrafton@gmail.com - [@cartertrafton](https://github.com/cartertrafton/)
 
 ### Timeline
 - [x] Week 1: Learning HTML & CSS
@@ -66,6 +66,6 @@ Because I did not know any JavaScript, HTML, or CSS, I have used resources such 
 - [Rithm](https://www.rithmschool.com/courses): for more advanced JavaScript.
 - [W3Schools](https://www.w3schools.com/default.asp): for tons of CSS and HTML reference and tutorials.
 - [CodeAcademy](https://www.codecademy.com): for the git and command line tutorials.
-- [Leaflet JS Library](https://leafletjs.com/reference-1.3.2.html): for mapping, geolocation, GPS markers, and route mapping
+- [Leaflet JS Library](https://leafletjs.com/reference-1.3.2.html): for mapping, geolocation, GPS markers, and route mapping.
 
 :~)
