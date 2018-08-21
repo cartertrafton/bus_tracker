@@ -1,12 +1,12 @@
 // Hard coded data for bus routes
 var data = [
 {   'ID': 'V0000',
-    'segment' : 'S1111',
-    'start_time' :  '1111A',
-    'end_time' : '1111P',
-    'last_announce' : '1111A',
-    'battery_level' : '11%',
-    'next_stop' : '1111A-ID_NUMBER-STOP_NAME',
+    'Segment' : 'S0000',
+    'Start Time' :  '0000A',
+    'End Time' : '0000P',
+    'Last Announce' : '0000A',
+    'Battery Level' : '11%',
+    'Next Stop' : '0000A-ID_NUMBER-STOP_NAME',
     'color': 'gray',
     'route':
         [[42.62978, -71.35376],
@@ -30,12 +30,12 @@ var data = [
 }, // bus0
 
 {   'ID': 'V1111',
-    'segment' : 'S2222',
-    'start_time' :  '2222A',
-    'end_time' : '2222P',
-    'last_announce' : '2222A',
-    'battery_level' : '22%',
-    'next_stop' : '2222A-ID_NUMBER-STOP_NAME',
+    'Segment' : 'S1111',
+    'Start Time' :  '1111A',
+    'End Time' : '1111P',
+    'Last Announce' : '1111A',
+    'Battery Level' : '11%',
+    'Next Stop' : '1111A-ID_NUMBER-STOP_NAME',
     'color': 'gray',
     'route':
         [[42.6301252,	-71.3486881],
@@ -55,13 +55,13 @@ var data = [
         [42.6334088,	-71.3491387]]
 }, //bus1
 
-{   'ID' : 'V2222',
-    'segment' : 'S3333',
-    'start_time' :  '3333A',
-    'end_time' : '3333P',
-    'last_announce' : '3333A',
-    'battery_level' : '33%',
-    'next_stop' : '3333A-ID_NUMBER-STOP_NAME',
+{    'ID': 'V2222',
+    'Segment' : 'S2222',
+    'Start Time' :  '2222A',
+    'End Time' : '2222P',
+    'Last Announce' : '2222A',
+    'Battery Level' : '22%',
+    'Next Stop' : '2222A-ID_NUMBER-STOP_NAME',
     'color': 'gray',
     'route':
         [[42.6295578,	-71.3537991],
