@@ -8,5 +8,3 @@ To-Do:
 
 - Highlight route on selection
 		highlightRoute() : on click of <tr> of each bus will makeRoute in new color
-
-- fix image sourcing in index.html src=img/…

@@ -25,7 +25,7 @@ h2  {
 th {
 	font-family: Helvetica, monospace;
 	border: 3px double black;
-	font-size: 13px;
+	font-size: 17px;
 	padding: 5px 5px 5px 5px;
 
 }
@@ -33,7 +33,7 @@ td {
 	font-family: monospace;
 	border: 1px solid black;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 15px;
 
 }
 table {
