@@ -167,6 +167,7 @@ function updateValues() {
 // This function changes the color of the bus it is passed
 function highlightRoute() {
     // Change colors of route upon clicking
+    //NOTE: this could be an algorithm to just highlight one route at a time but I dont have the bus API data
     var route0 = document.getElementById('bus0');
         route0.onclick = function() {
             makeRoute(data[0], 'green');
