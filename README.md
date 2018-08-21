@@ -15,8 +15,8 @@ for display and controls of the map. Before starting this project I did not know
 - [x] Map controls (zoom , scroll, etc)
 - [x] Attach table values to easily assigned variables
 - [x] Bus routes available on map
-- [ ] Route highlighting when selected
-- [ ] Live bus location tracking
+- [x] Route highlighting when selected
+- [ ] Live bus GPS data
 
 
 ## Data Formatting

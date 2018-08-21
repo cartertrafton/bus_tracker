@@ -2,9 +2,3 @@
 To-Do:
 - Read from online table and capture values
 		getValues();
-
-- Fill table and update button
-		updateValues() : update button attached to table
-
-- Highlight route on selection
-		highlightRoute() : on click of <tr> of each bus will call makeRoute in new color
