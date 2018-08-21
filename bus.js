@@ -7,7 +7,6 @@ var data = [
     'Last Announce' : '0000A',
     'Battery Level' : '11%',
     'Next Stop' : '0000A-ID_NUMBER-STOP_NAME',
-    'color': 'gray',
     'route':
         [[42.62978, -71.35376],
         [42.62949, -71.34976],
@@ -36,7 +35,6 @@ var data = [
     'Last Announce' : '1111A',
     'Battery Level' : '11%',
     'Next Stop' : '1111A-ID_NUMBER-STOP_NAME',
-    'color': 'gray',
     'route':
         [[42.6301252,	-71.3486881],
         [42.6284438,	-71.3480659],
@@ -62,7 +60,6 @@ var data = [
     'Last Announce' : '2222A',
     'Battery Level' : '22%',
     'Next Stop' : '2222A-ID_NUMBER-STOP_NAME',
-    'color': 'gray',
     'route':
         [[42.6295578,	-71.3537991],
         [42.6297315,	-71.3550222],
