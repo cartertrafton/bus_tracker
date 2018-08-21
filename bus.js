@@ -101,7 +101,7 @@ var mymap = L.map('mapid').setView([42.630029,-71.353681], 13);
 
 //Customize icon
 var busIcon = L.icon({
-    iconUrl: 'bus-icon.png',
+    iconUrl: 'img/bus_icon.png',
 
     iconSize:     [40, 40], // size of the icon
     iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
