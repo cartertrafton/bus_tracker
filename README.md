@@ -31,7 +31,7 @@ Each bus will be handled as an object by the main program, and it will call a fu
     'last_announce' : '####A',
     'battery_level' : '##%',
     'next_stop' : '####A-ID_NUMBER-STOP_NAME',
-        'color' : 'gray',
+    'color' : 'gray',
     'route' :
       [[-42.5, 71.8],
        [-42.6, 71.9],
