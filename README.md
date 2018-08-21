@@ -2,9 +2,9 @@
 >MRTA Fixed Route Bus Tracking for HBSS: Created with JavaScript, HTML, and CSS.
 
 ## Background
-This program is built for tracking bus movements along their fixed-routes for the MRTA.
+This program was built for tracking bus movements along their fixed-routes for the MRTA.
 It utilizes the [Leaflet JavaScript library](https://github.com/Leaflet/Leaflet)
-for display and controls of the map. Before starting this project I did not know any HTML, CSS, or JavaScript, and have been teaching myself via free online courses and code practice sites.
+for display and controls of the map. Before starting this project I did not know any HTML, CSS, or JavaScript, and taught myself via free online courses and code practice sites.
 
 ## Current Build
 ![Current Build Screenshot (WIP)](https://i.imgur.com/K4XAA7J.png)
@@ -20,7 +20,7 @@ for display and controls of the map. Before starting this project I did not know
 
 
 ## Data Formatting
-Each bus will be handled as an object by the main program, and it will call a function that gets the data from either a web-scraping script or an API. From there the main program will build and display an HTML table onto the site overlaying the map. Each of the buses info will follow the format of an object with the keys being the relevant data, including ID number, route color, and GPS coordinates (in the form of a two-dimensional array):
+Each bus is handled as an object by the main program, and it calls a function that gets the data from either a web-scraping script or an API. From there the main program builds and displays an HTML table onto the site overlaying the map. Each of the buses follow the format of an object with the keys being the relevant data, including ID number, route color, and GPS coordinates (in the form of a two-dimensional array):
 
 ```
 {
