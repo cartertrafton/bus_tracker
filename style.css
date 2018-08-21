@@ -106,7 +106,7 @@ input#show_routes {
 
 }
 .table {
-	max-width: 0;
+	max-width: 100%;
 	overflow: hidden;
 	padding: 5px 0 0 0px;
 	transition: 0.2s;
@@ -118,6 +118,6 @@ input:checked ~ label {
 	background-color: black;
 }
 input:checked ~ .table {
-	max-width: 100%;
+	max-width: 0%;
 	transition: 0.1s;
 }
