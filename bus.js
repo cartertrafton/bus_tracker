@@ -55,7 +55,7 @@ var data = [
         [42.6334088,	-71.3491387]]
 }, //bus1
 
-{    'ID': 'V2222',
+{   'ID': 'V2222',
     'Segment' : 'S2222',
     'Start Time' :  '2222A',
     'End Time' : '2222P',
@@ -79,7 +79,7 @@ var data = [
 }]; // bus2 - data
 
 // Sets up the map
-var mymap = L.map('mapid').setView([42.630029,-71.353681], 13);
+var mymap = L.map('mapid').setView([42.630029,-71.353681], 15);
 
 //Customize icon
 var busIcon = L.icon({
@@ -107,8 +107,8 @@ function makeIcon(bus){
 
 // This function places a route on the map
 // Passes bus name, and generates a poly-line along the route
-function makeRoute(bus) {
-	var polyline = L.polyline(bus.route, {color: bus.color, weight:5}).addTo(mymap);
+function makeRoute(bus, route_color) {
+	var polyline = L.polyline(bus.route, {color: route_color, weight:5}).addTo(mymap);
 }
 
 // Fucntion that builds the HTML table out of the data object
@@ -132,13 +132,14 @@ function makeTable() {
 	var tr = table.insertRow(-1);  // table row
 	for (var i = 0; i < col.length; i++) {
 		var th = document.createElement("th");  // table header
-		th.innerHTML = col[i];
+        th.innerHTML = col[i];
 		tr.appendChild(th);
 	}
 
 	// Add data to table as rows
 	for (var i = 0; i < data.length; i++) {
 		tr = table.insertRow(-1);
+        tr.setAttribute("id", "bus" + i);
 
 		for (var j = 0; j < col.length; j++) {
 			var tabCell = tr.insertCell(-1);
@@ -168,6 +169,27 @@ function updateValues() {
 
 // This function changes the color of the bus it is passed
 function highlightRoute() {
+    // Change colors of route upon clicking
+    var route0 = document.getElementById('bus0');
+        route0.onclick = function() {
+            makeRoute(data[0], 'green');
+            makeRoute(data[1], 'gray');
+            makeRoute(data[2], 'gray');
+        }
+
+    var route1 = document.getElementById('bus1');
+        route1.onclick = function() {
+            makeRoute(data[1], 'green');
+            makeRoute(data[2], 'gray');
+            makeRoute(data[0], 'gray');
+        }
+
+    var route2 = document.getElementById('bus2');
+        route2.onclick = function() {
+            makeRoute(data[2], 'green');
+            makeRoute(data[0], 'gray');
+            makeRoute(data[1], 'gray');
+        }
 }
 
 // This function resets the color of the highlighted route back to gray
@@ -181,18 +203,8 @@ function clearRoute() {
 makeTable();
 
 for (let i = 0; i < data.length; i++) {
-    makeRoute(data[i]);
+    makeRoute(data[i], 'gray');
     makeIcon(data[i]);
 }
 
-//Change colors of routes on map clicking
-mymap.on('click', function () {
-    var tempColor = Math.floor(Math.random() * 3);
-    var tempRoute = Math.floor(Math.random() * 3);
-    console.log('bus: ' + tempRoute + ' color: ' + tempColor);
-
-    data[tempRoute]['color'] = (tempColor >= 1) ? ( tempColor >= 2 ? 'green': 'blue') : 'yellow';
-    makeRoute(data[tempRoute]);
-    makeTable();
-    //alert('clicked a route');
-} );
+highlightRoute();
