@@ -56,6 +56,22 @@ table {
 	height: 97vh;
 	z-index: 0;
 }
+#update {
+	position: absolute;
+	top: 95%;
+	left: 15%;
+	font-family: monospace;
+	font-size: 20x;
+	display: block;
+	cursor: pointer;
+	width: 130px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background-color: #56B750;
+	margin: 5px;
+	z-index: 1;
+}
 .collapsible {
 	padding: 0 0 0 0px;
 	min-width: 400px;
@@ -66,13 +82,14 @@ table {
 .collapsible label {
 	position: absolute;
 	top: 95%;
-	font-family: Helvetica, monospace;
+	font-family: monospace;
 	font-size: 20x;
+	text-align: center;
 	display: block;
 	cursor: pointer;
 	width: 130px;
 	border: 1px solid black;
-	padding: 5px 0 5px 5px;
+	padding: 5px;
 	background-color: #56B750;
 	margin: 5px;
 	z-index: 1;

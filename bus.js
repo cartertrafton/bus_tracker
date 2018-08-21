@@ -125,6 +125,8 @@ function makeTable() {
 	}
     // Remove routes from the col array
     col.pop();
+    col.pop();
+
 
     // Create HTML table header row using col array
 	var tr = table.insertRow(-1);  // table row
