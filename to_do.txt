@@ -7,4 +7,4 @@ To-Do:
 		updateValues() : update button attached to table
 
 - Highlight route on selection
-		highlightRoute() : on click of <tr> of each bus will makeRoute in new color
+		highlightRoute() : on click of <tr> of each bus will call makeRoute in new color
