@@ -51,7 +51,7 @@ cartertrafton@gmail.com - [@cartertrafton](https://github.com/cartertrafton/)
 - [x] Week 4: Continuing advanced JavaScript & learning Leaflet
 library
 - [x] Week 5: Implementing features
-- [ ] **Week 6: Project Finish - Goal**
+- [x] Week 6: Project Finish - Goal
 
 ### Resources
 Because I did not know any JavaScript, HTML, or CSS, I have used resources such as:
